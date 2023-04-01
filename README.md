@@ -3,7 +3,9 @@ Analysis of Google's Prospective API and what biases it carries
 
 # Getting Started
 To get started create a Google Cloud account and request access to Perspective API: https://cloud.google.com/
+
 To replicate data go to Google's Perspective API documentation: https://developers.perspectiveapi.com/s/?language=en_US
+
 Follow the instructions to get an API key and insert into jupyter notebook! 
 - Make sure not to share your API key with anyone else.
 
