@@ -1,6 +1,12 @@
 # Data-Bias
 Analysis of Google's Prospective API and what biases it carries
 
+# Getting Started
+To get started create a Google Cloud account and request access to Perspective API: https://cloud.google.com/
+To replicate data go to Google's Perspective API documentation: https://developers.perspectiveapi.com/s/?language=en_US
+Follow the instructions to get an API key and insert into jupyter notebook! 
+- Make sure not to share your API key with anyone else.
+
 # Hypothesis
 From what I learned about the way the model works and how the toxicty scores are assigned, my hypothesis is that profanity is needlessly labeled as toxic. In my opinion works like "fuck" and "shit" can be used positively depending on context, but I believe the model cannot read the context and disproportionately labels comments with profanity toxic.
 
